@@ -1,0 +1,52 @@
+:root {
+  font-family: "DM Sans", "Noto Sans Telugu", sans-serif;
+  color: #24332e;
+  background: #f3f6f3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  --ink: #24332e;
+  --muted: #748078;
+  --line: #e7ece8;
+  --green: #286b54;
+  --deep-green: #173e35;
+  --canvas: #f3f6f3;
+  --white: #ffffff;
+  --amber: #a9691c;
+  --red: #b24e44;
+  --shadow: 0 8px 28px rgba(29, 57, 47, 0.055);
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 360px;
+  min-height: 100vh;
+  margin: 0;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(51, 132, 101, 0.28);
+  outline-offset: 2px;
+}
+a {
+  color: inherit;
+}
+#root {
+  min-height: 100vh;
+}
